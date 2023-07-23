@@ -1,0 +1,126 @@
+/* App.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom CSS and Tailwind classes go here */
+.hero-card {
+  position: absolute;
+  width: 50%;
+  height: 30%; 
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 1200px) {
+  .hero-card {
+      width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-card {
+      width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+      width: 90%;
+  }
+}
+h1 {
+  font-size: calc(1.5em + 1.5vw);
+}
+
+p {
+  font-size: calc(1em + 1vw);
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: calc(1.2em + 1vw);
+  }
+
+  p {
+      font-size: calc(0.8em + 1vw);
+  }
+}
+.hero-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-card {
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.hero-container1 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero-card1 {
+  position: absolute;
+  transform: translateY(35%);
+  background: #fff;
+  width: 70%;
+}
+
+h1 {
+  font-size: calc(1.5em + 1.5vw);
+}
+
+p {
+  font-size: calc(1em + 1vw);
+}
+
+h5 {
+  color: #000;
+}
+
+.highlighted-word {
+  background-color: #35A0EE;
+  border-radius: 30px;
+  padding: 5px;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .hero-card {
+      width: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-card {
+      width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+      width: 90%;
+  }
+
+  h1 {
+      font-size: calc(1.2em + 1vw);
+  }
+
+  p {
+      font-size: calc(0.8em + 1vw);
+  }
+
+  .login {
+      position: relative;
+      right: 3rem;
+  }
+}
